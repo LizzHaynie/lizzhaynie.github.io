@@ -1,7 +1,7 @@
 function Home() {
     return (
       <div className="rendered-container">
-        hi
+        This is a test
       </div>
     );
   }
