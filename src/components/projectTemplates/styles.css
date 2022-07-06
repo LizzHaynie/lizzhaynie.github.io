@@ -324,8 +324,7 @@ span {
     .skeleton-rectangle-container, 
     .row-skeleton-container,
     .combined-single-row-container,
-    .card-container,
-    .square-container {
+    .card-container {
         width: 95%;
     }
 }
