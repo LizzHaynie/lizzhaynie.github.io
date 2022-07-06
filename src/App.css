@@ -224,14 +224,21 @@
     display: block;
   }
 
+  .menu-close-anim {
+    animation: menuHiding .3s;
+    visibility: hidden;
+    width: 0%;
+    min-width: 0px;
+  }
+
   .menu-hidden {
     visibility: hidden;
     width: 0%;
     min-width: 0px;
-    animation: menuHiding .3s;
   }
 
-  .menu-hidden li {
+  .menu-hidden,
+  .menu-close-anim li {
     display: none;
   }
 
